@@ -1,0 +1,621 @@
+Archive member included because of file (symbol)
+
+/home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                              ./src/cr_startup_lpc13.o (SystemInit)
+
+Allocating common symbols
+Common symbol       size              file
+
+USB_AltSetting      0x1               ./src/usbcore.o
+BulkBuf             0x40              ./src/mscuser.o
+CBW                 0x1f              ./src/mscuser.o
+Memory              0x1800            ./src/mscuser.o
+EP0Buf              0x40              ./src/usbcore.o
+USB_EndPointMask    0x4               ./src/usbcore.o
+USB_DeviceAddress   0x1               ./src/usbcore.o
+USB_EndPointStall   0x4               ./src/usbcore.o
+Offset              0x4               ./src/mscuser.o
+CSW                 0xd               ./src/mscuser.o
+USB_EndPointHalt    0x4               ./src/usbcore.o
+MemOK               0x4               ./src/mscuser.o
+Length              0x4               ./src/mscuser.o
+USB_Configuration   0x1               ./src/usbcore.o
+BulkLen             0x1               ./src/mscuser.o
+SetupPacket         0x8               ./src/usbcore.o
+USB_NumInterfaces   0x1               ./src/usbcore.o
+EP0Data             0x8               ./src/usbcore.o
+USB_DeviceStatus    0x2               ./src/usbcore.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/DiskImg.o
+ .data          0x00000000        0x0 ./src/DiskImg.o
+ .bss           0x00000000        0x0 ./src/DiskImg.o
+ .text          0x00000000        0x0 ./src/clkconfig.o
+ .data          0x00000000        0x0 ./src/clkconfig.o
+ .bss           0x00000000        0x0 ./src/clkconfig.o
+ .text.WDT_CLK_Setup
+                0x00000000       0xa0 ./src/clkconfig.o
+ .text.CLKOUT_Setup
+                0x00000000       0x74 ./src/clkconfig.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .text          0x00000000        0x0 ./src/memory.o
+ .data          0x00000000        0x0 ./src/memory.o
+ .bss           0x00000000        0x0 ./src/memory.o
+ .text          0x00000000        0x0 ./src/mscuser.o
+ .data          0x00000000        0x0 ./src/mscuser.o
+ .text          0x00000000        0x0 ./src/usbcore.o
+ .data          0x00000000        0x0 ./src/usbcore.o
+ .bss           0x00000000        0x0 ./src/usbcore.o
+ .text          0x00000000        0x0 ./src/usbdesc.o
+ .data          0x00000000        0x0 ./src/usbdesc.o
+ .bss           0x00000000        0x0 ./src/usbdesc.o
+ .text          0x00000000        0x0 ./src/usbhw.o
+ .data          0x00000000        0x0 ./src/usbhw.o
+ .bss           0x00000000        0x0 ./src/usbhw.o
+ .text.USB_WakeUp
+                0x00000000       0x2c ./src/usbhw.o
+ .text.USB_ClearEPBuf
+                0x00000000       0x20 ./src/usbhw.o
+ .text.USB_GetFrame
+                0x00000000       0x48 ./src/usbhw.o
+ .text          0x00000000        0x0 ./src/usbuser.o
+ .data          0x00000000        0x0 ./src/usbuser.o
+ .bss           0x00000000        0x0 ./src/usbuser.o
+ .text.USB_EndPoint1
+                0x00000000       0x14 ./src/usbuser.o
+ .text.USB_EndPoint3
+                0x00000000       0x14 ./src/usbuser.o
+ .text.USB_EndPoint4
+                0x00000000       0x14 ./src/usbuser.o
+ .text          0x00000000        0x0 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .data          0x00000000        0x4 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .bss           0x00000000        0x0 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000      0x358 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x00000000         0x00008000         xr
+RamLoc8          0x10000000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/DiskImg.o
+LOAD ./src/clkconfig.o
+LOAD ./src/cr_startup_lpc13.o
+LOAD ./src/memory.o
+LOAD ./src/mscuser.o
+LOAD ./src/usbcore.o
+LOAD ./src/usbdesc.o
+LOAD ./src/usbhw.o
+LOAD ./src/usbuser.o
+LOAD /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a
+START GROUP
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_semihost.a
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_c.a
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/libcr_eabihelpers.a
+END GROUP
+                0x00008000                __top_MFlash32 = 0x8000
+                0x10002000                __top_RamLoc8 = 0x10002000
+
+.text           0x00000000     0x4014
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x124 ./src/cr_startup_lpc13.o
+                0x00000000                g_pfnVectors
+ *(.text*)
+ .text.Reset_Handler
+                0x00000124       0x78 ./src/cr_startup_lpc13.o
+                0x00000124                Reset_Handler
+                0x00000124                ResetISR
+ .text.NMI_Handler
+                0x0000019c        0x8 ./src/cr_startup_lpc13.o
+                0x0000019c                NMI_Handler
+ .text.HardFault_Handler
+                0x000001a4        0x8 ./src/cr_startup_lpc13.o
+                0x000001a4                HardFault_Handler
+ .text.MemManage_Handler
+                0x000001ac        0x8 ./src/cr_startup_lpc13.o
+                0x000001ac                MemManage_Handler
+ .text.BusFault_Handler
+                0x000001b4        0x8 ./src/cr_startup_lpc13.o
+                0x000001b4                BusFault_Handler
+ .text.UsageFault_Handler
+                0x000001bc        0x8 ./src/cr_startup_lpc13.o
+                0x000001bc                UsageFault_Handler
+ .text.SVCall_Handler
+                0x000001c4        0x8 ./src/cr_startup_lpc13.o
+                0x000001c4                SVCall_Handler
+ .text.DebugMon_Handler
+                0x000001cc        0x8 ./src/cr_startup_lpc13.o
+                0x000001cc                DebugMon_Handler
+ .text.PendSV_Handler
+                0x000001d4        0x8 ./src/cr_startup_lpc13.o
+                0x000001d4                PendSV_Handler
+ .text.SysTick_Handler
+                0x000001dc        0x8 ./src/cr_startup_lpc13.o
+                0x000001dc                SysTick_Handler
+ .text.IntDefaultHandler
+                0x000001e4        0x8 ./src/cr_startup_lpc13.o
+                0x000001e4                TIMER16_0_IRQHandler
+                0x000001e4                UART_IRQHandler
+                0x000001e4                TIMER32_0_IRQHandler
+                0x000001e4                TIMER32_1_IRQHandler
+                0x000001e4                PIOINT1_IRQHandler
+                0x000001e4                SSP_IRQHandler
+                0x000001e4                TIMER16_1_IRQHandler
+                0x000001e4                USB_FIQHandler
+                0x000001e4                ADC_IRQHandler
+                0x000001e4                PIOINT2_IRQHandler
+                0x000001e4                BOD_IRQHandler
+                0x000001e4                WAKEUP_IRQHandler
+                0x000001e4                PIOINT0_IRQHandler
+                0x000001e4                I2C_IRQHandler
+                0x000001e4                WDT_IRQHandler
+                0x000001e4                PIOINT3_IRQHandler
+                0x000001e4                FMC_IRQHandler
+ .text.main     0x000001ec       0x68 ./src/memory.o
+                0x000001ec                main
+ .text.MSC_SetStallEP
+                0x00000254       0x58 ./src/mscuser.o
+                0x00000254                MSC_SetStallEP
+ .text.MSC_Reset
+                0x000002ac       0x3c ./src/mscuser.o
+                0x000002ac                MSC_Reset
+ .text.MSC_GetMaxLUN
+                0x000002e8       0x20 ./src/mscuser.o
+                0x000002e8                MSC_GetMaxLUN
+ .text.MSC_MemoryRead
+                0x00000308      0x108 ./src/mscuser.o
+                0x00000308                MSC_MemoryRead
+ .text.MSC_MemoryWrite
+                0x00000410      0x138 ./src/mscuser.o
+                0x00000410                MSC_MemoryWrite
+ .text.MSC_MemoryVerify
+                0x00000548      0x15c ./src/mscuser.o
+                0x00000548                MSC_MemoryVerify
+ .text.MSC_RWSetup
+                0x000006a4      0x178 ./src/mscuser.o
+                0x000006a4                MSC_RWSetup
+ .text.DataInFormat
+                0x0000081c       0x64 ./src/mscuser.o
+                0x0000081c                DataInFormat
+ .text.DataInTransfer
+                0x00000880       0xa0 ./src/mscuser.o
+                0x00000880                DataInTransfer
+ .text.MSC_TestUnitReady
+                0x00000920       0x48 ./src/mscuser.o
+                0x00000920                MSC_TestUnitReady
+ .text.MSC_RequestSense
+                0x00000968      0x124 ./src/mscuser.o
+                0x00000968                MSC_RequestSense
+ .text.MSC_Inquiry
+                0x00000a8c      0x228 ./src/mscuser.o
+                0x00000a8c                MSC_Inquiry
+ .text.MSC_ModeSense6
+                0x00000cb4       0x60 ./src/mscuser.o
+                0x00000cb4                MSC_ModeSense6
+ .text.MSC_ModeSense10
+                0x00000d14       0x98 ./src/mscuser.o
+                0x00000d14                MSC_ModeSense10
+ .text.MSC_ReadCapacity
+                0x00000dac       0x98 ./src/mscuser.o
+                0x00000dac                MSC_ReadCapacity
+ .text.MSC_ReadFormatCapacity
+                0x00000e44       0xd0 ./src/mscuser.o
+                0x00000e44                MSC_ReadFormatCapacity
+ .text.MSC_GetCBW
+                0x00000f14      0x520 ./src/mscuser.o
+                0x00000f14                MSC_GetCBW
+ .text.MSC_SetCSW
+                0x00001434       0x3c ./src/mscuser.o
+                0x00001434                MSC_SetCSW
+ .text.MSC_BulkIn
+                0x00001470       0x6c ./src/mscuser.o
+                0x00001470                MSC_BulkIn
+ .text.MSC_BulkOut
+                0x000014dc       0x80 ./src/mscuser.o
+                0x000014dc                MSC_BulkOut
+ .text.USB_ResetCore
+                0x0000155c       0x60 ./src/usbcore.o
+                0x0000155c                USB_ResetCore
+ .text.USB_SetupStage
+                0x000015bc       0x18 ./src/usbcore.o
+                0x000015bc                USB_SetupStage
+ .text.USB_DataInStage
+                0x000015d4       0x80 ./src/usbcore.o
+                0x000015d4                USB_DataInStage
+ .text.USB_DataOutStage
+                0x00001654       0x5c ./src/usbcore.o
+                0x00001654                USB_DataOutStage
+ .text.USB_StatusInStage
+                0x000016b0       0x18 ./src/usbcore.o
+                0x000016b0                USB_StatusInStage
+ .text.USB_StatusOutStage
+                0x000016c8       0x18 ./src/usbcore.o
+                0x000016c8                USB_StatusOutStage
+ .text.USB_ReqGetStatus
+                0x000016e0      0x138 ./src/usbcore.o
+                0x000016e0                USB_ReqGetStatus
+ .text.USB_ReqSetClrFeature
+                0x00001818      0x1f8 ./src/usbcore.o
+                0x00001818                USB_ReqSetClrFeature
+ .text.USB_ReqSetAddress
+                0x00001a10       0x48 ./src/usbcore.o
+                0x00001a10                USB_ReqSetAddress
+ .text.USB_ReqGetDescriptor
+                0x00001a58      0x178 ./src/usbcore.o
+                0x00001a58                USB_ReqGetDescriptor
+ .text.USB_ReqGetConfiguration
+                0x00001bd0       0x3c ./src/usbcore.o
+                0x00001bd0                USB_ReqGetConfiguration
+ .text.UsbAddPtr
+                0x00001c0c       0x24 ./src/usbcore.o
+                0x00001c0c                UsbAddPtr
+ .text.USB_ReqSetConfiguration
+                0x00001c30      0x30c ./src/usbcore.o
+                0x00001c30                USB_ReqSetConfiguration
+ .text.USB_ReqGetInterface
+                0x00001f3c       0x78 ./src/usbcore.o
+                0x00001f3c                USB_ReqGetInterface
+ .text.USB_ReqSetInterface
+                0x00001fb4      0x234 ./src/usbcore.o
+                0x00001fb4                USB_ReqSetInterface
+ .text.USB_EndPoint0
+                0x000021e8      0x384 ./src/usbcore.o
+                0x000021e8                USB_EndPoint0
+ .text.NVIC_EnableIRQ
+                0x0000256c       0x38 ./src/usbhw.o
+ .text.USBIOClkConfig
+                0x000025a4       0xd4 ./src/usbhw.o
+                0x000025a4                USBIOClkConfig
+ .text.delay    0x00002678       0x2c ./src/usbhw.o
+                0x00002678                delay
+ .text.EPAdr    0x000026a4       0x34 ./src/usbhw.o
+                0x000026a4                EPAdr
+ .text.WrCmd    0x000026d8       0x40 ./src/usbhw.o
+                0x000026d8                WrCmd
+ .text.WrCmdDat
+                0x00002718       0x20 ./src/usbhw.o
+                0x00002718                WrCmdDat
+ .text.WrCmdEP  0x00002738       0x30 ./src/usbhw.o
+                0x00002738                WrCmdEP
+ .text.RdCmdDat
+                0x00002768       0x4c ./src/usbhw.o
+                0x00002768                RdCmdDat
+ .text.USB_Init
+                0x000027b4       0x1c ./src/usbhw.o
+                0x000027b4                USB_Init
+ .text.USB_Connect
+                0x000027d0       0x34 ./src/usbhw.o
+                0x000027d0                USB_Connect
+ .text.USB_Reset
+                0x00002804       0x2c ./src/usbhw.o
+                0x00002804                USB_Reset
+ .text.USB_Suspend
+                0x00002830        0xc ./src/usbhw.o
+                0x00002830                USB_Suspend
+ .text.USB_Resume
+                0x0000283c        0xc ./src/usbhw.o
+                0x0000283c                USB_Resume
+ .text.USB_WakeUpCfg
+                0x00002848       0x14 ./src/usbhw.o
+                0x00002848                USB_WakeUpCfg
+ .text.USB_SetAddress
+                0x0000285c       0x48 ./src/usbhw.o
+                0x0000285c                USB_SetAddress
+ .text.USB_Configure
+                0x000028a4       0x34 ./src/usbhw.o
+                0x000028a4                USB_Configure
+ .text.USB_ConfigEP
+                0x000028d8       0x14 ./src/usbhw.o
+                0x000028d8                USB_ConfigEP
+ .text.USB_DirCtrlEP
+                0x000028ec       0x14 ./src/usbhw.o
+                0x000028ec                USB_DirCtrlEP
+ .text.USB_EnableEP
+                0x00002900       0x30 ./src/usbhw.o
+                0x00002900                USB_EnableEP
+ .text.USB_DisableEP
+                0x00002930       0x34 ./src/usbhw.o
+                0x00002930                USB_DisableEP
+ .text.USB_ResetEP
+                0x00002964       0x30 ./src/usbhw.o
+                0x00002964                USB_ResetEP
+ .text.USB_SetStallEP
+                0x00002994       0x34 ./src/usbhw.o
+                0x00002994                USB_SetStallEP
+ .text.USB_ClrStallEP
+                0x000029c8       0x30 ./src/usbhw.o
+                0x000029c8                USB_ClrStallEP
+ .text.USB_ReadEP
+                0x000029f8       0xac ./src/usbhw.o
+                0x000029f8                USB_ReadEP
+ .text.USB_WriteEP
+                0x00002aa4       0xd4 ./src/usbhw.o
+                0x00002aa4                USB_WriteEP
+ .text.USB_IRQHandler
+                0x00002b78      0x184 ./src/usbhw.o
+                0x00002b78                USB_IRQHandler
+ .text.USB_Reset_Event
+                0x00002cfc        0xc ./src/usbuser.o
+                0x00002cfc                USB_Reset_Event
+ .text.USB_Suspend_Event
+                0x00002d08        0xc ./src/usbuser.o
+                0x00002d08                USB_Suspend_Event
+ .text.USB_Resume_Event
+                0x00002d14        0xc ./src/usbuser.o
+                0x00002d14                USB_Resume_Event
+ .text.USB_Configure_Event
+                0x00002d20        0xc ./src/usbuser.o
+                0x00002d20                USB_Configure_Event
+ .text.USB_EndPoint2
+                0x00002d2c       0x28 ./src/usbuser.o
+                0x00002d2c                USB_EndPoint2
+ .text.__NOP    0x00002d54        0xc /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .text.SystemInit
+                0x00002d60      0x1f8 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                0x00002d60                SystemInit
+ *(.rodata*)
+ .rodata        0x00002f58     0x1000 ./src/DiskImg.o
+                0x00002f58                DiskImage
+ .rodata        0x00003f58       0xa8 ./src/usbdesc.o
+                0x00003f58                USB_DeviceDescriptor
+                0x00003f6c                USB_ConfigDescriptor
+                0x00003f90                USB_StringDescriptor
+ .rodata        0x00004000       0x14 ./src/usbuser.o
+                0x00004000                USB_P_EP
+
+.glue_7         0x00004014        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00004014        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00004014        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00004014        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00004014                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00004014                __exidx_end = .
+                0x00004014                _etext = .
+
+.data           0x10000000        0x0 load address 0x00004014
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+                0x10000000                _edata = .
+
+.bss            0x10000000     0x18f2 load address 0x00004014
+                0x10000000                _bss = .
+ *(.bss*)
+ .bss           0x10000000        0x1 ./src/mscuser.o
+                0x10000000                BulkStage
+ *(COMMON)
+ *fill*         0x10000001        0x3 00
+ COMMON         0x10000004     0x187d ./src/mscuser.o
+                0x10000004                BulkBuf
+                0x10000044                CBW
+                0x10000064                Memory
+                0x10001864                Offset
+                0x10001868                CSW
+                0x10001878                MemOK
+                0x1000187c                Length
+                0x10001880                BulkLen
+ *fill*         0x10001881        0x3 00
+ COMMON         0x10001884       0x6e ./src/usbcore.o
+                0x10001884                USB_AltSetting
+                0x10001888                EP0Buf
+                0x100018c8                USB_EndPointMask
+                0x100018cc                USB_DeviceAddress
+                0x100018d0                USB_EndPointStall
+                0x100018d4                USB_EndPointHalt
+                0x100018d8                USB_Configuration
+                0x100018dc                SetupPacket
+                0x100018e4                USB_NumInterfaces
+                0x100018e8                EP0Data
+                0x100018f0                USB_DeviceStatus
+                0x100018f2                _ebss = .
+
+.cr_heap        0x100018f2        0x0 load address 0x00004014
+                0x100018f2                end = .
+                0x100018f2                _pvHeapStart = .
+                0x10002000                _vRamTop = __top_RamLoc8
+                0x10002000                _vStackTop = (_vRamTop - 0x0)
+OUTPUT(usbmsd.axf elf32-littlearm)
+
+.debug_abbrev   0x00000000      0xabe
+ .debug_abbrev  0x00000000       0x54 ./src/DiskImg.o
+ .debug_abbrev  0x00000054       0xb7 ./src/clkconfig.o
+ .debug_abbrev  0x0000010b       0xdf ./src/cr_startup_lpc13.o
+ .debug_abbrev  0x000001ea       0xd3 ./src/memory.o
+ .debug_abbrev  0x000002bd      0x183 ./src/mscuser.o
+ .debug_abbrev  0x00000440      0x234 ./src/usbcore.o
+ .debug_abbrev  0x00000674       0x6c ./src/usbdesc.o
+ .debug_abbrev  0x000006e0      0x223 ./src/usbhw.o
+ .debug_abbrev  0x00000903       0xd3 ./src/usbuser.o
+ .debug_abbrev  0x000009d6       0xe8 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_info     0x00000000     0x3270
+ .debug_info    0x00000000       0x5c ./src/DiskImg.o
+ .debug_info    0x0000005c      0x524 ./src/clkconfig.o
+ .debug_info    0x00000580      0x1ed ./src/cr_startup_lpc13.o
+ .debug_info    0x0000076d      0x54a ./src/memory.o
+ .debug_info    0x00000cb7      0x486 ./src/mscuser.o
+ .debug_info    0x0000113d      0x873 ./src/usbcore.o
+ .debug_info    0x000019b0       0xf3 ./src/usbdesc.o
+ .debug_info    0x00001aa3     0x10b9 ./src/usbhw.o
+ .debug_info    0x00002b5c      0x1c7 ./src/usbuser.o
+ .debug_info    0x00002d23      0x54d /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_line     0x00000000     0x14d5
+ .debug_line    0x00000000       0x65 ./src/DiskImg.o
+ .debug_line    0x00000065      0x168 ./src/clkconfig.o
+ .debug_line    0x000001cd      0x1b7 ./src/cr_startup_lpc13.o
+ .debug_line    0x00000384      0x182 ./src/memory.o
+ .debug_line    0x00000506      0x3d9 ./src/mscuser.o
+ .debug_line    0x000008df      0x3cd ./src/usbcore.o
+ .debug_line    0x00000cac      0x107 ./src/usbdesc.o
+ .debug_line    0x00000db3      0x3d8 ./src/usbhw.o
+ .debug_line    0x0000118b      0x1ae ./src/usbuser.o
+ .debug_line    0x00001339      0x19c /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_macinfo  0x00000000    0x21b81
+ .debug_macinfo
+                0x00000000      0xce9 ./src/DiskImg.o
+ .debug_macinfo
+                0x00000ce9     0x4ec4 ./src/clkconfig.o
+ .debug_macinfo
+                0x00005bad     0x15a1 ./src/cr_startup_lpc13.o
+ .debug_macinfo
+                0x0000714e     0x5b72 ./src/memory.o
+ .debug_macinfo
+                0x0000ccc0     0x269c ./src/mscuser.o
+ .debug_macinfo
+                0x0000f35c     0x284a ./src/usbcore.o
+ .debug_macinfo
+                0x00011ba6     0x283b ./src/usbdesc.o
+ .debug_macinfo
+                0x000143e1     0x6298 ./src/usbhw.o
+ .debug_macinfo
+                0x0001a679     0x238a ./src/usbuser.o
+ .debug_macinfo
+                0x0001ca03     0x517e /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_pubnames
+                0x00000000      0x8b9
+ .debug_pubnames
+                0x00000000       0x20 ./src/DiskImg.o
+ .debug_pubnames
+                0x00000020       0x35 ./src/clkconfig.o
+ .debug_pubnames
+                0x00000055       0xec ./src/cr_startup_lpc13.o
+ .debug_pubnames
+                0x00000141       0x1b ./src/memory.o
+ .debug_pubnames
+                0x0000015c      0x1e5 ./src/mscuser.o
+ .debug_pubnames
+                0x00000341      0x243 ./src/usbcore.o
+ .debug_pubnames
+                0x00000584       0x5d ./src/usbdesc.o
+ .debug_pubnames
+                0x000005e1      0x1cb ./src/usbhw.o
+ .debug_pubnames
+                0x000007ac       0xbe ./src/usbuser.o
+ .debug_pubnames
+                0x0000086a       0x4f /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_str      0x00000000     0x12ec
+ .debug_str     0x00000000       0x5f ./src/DiskImg.o
+ .debug_str     0x0000005f      0x33b ./src/clkconfig.o
+                                0x3b3 (size before relaxing)
+ .debug_str     0x0000039a      0x108 ./src/cr_startup_lpc13.o
+                                0x1c2 (size before relaxing)
+ .debug_str     0x000004a2       0x24 ./src/memory.o
+                                0x3ac (size before relaxing)
+ .debug_str     0x000004c6      0x1e9 ./src/mscuser.o
+                                0x2d2 (size before relaxing)
+ .debug_str     0x000006af      0x428 ./src/usbcore.o
+                                0x598 (size before relaxing)
+ .debug_str     0x00000ad7       0x11 ./src/usbdesc.o
+                                0x112 (size before relaxing)
+ .debug_str     0x00000ae8      0x6e7 ./src/usbhw.o
+                                0xb18 (size before relaxing)
+ .debug_str     0x000011cf       0x90 ./src/usbuser.o
+                                0x17c (size before relaxing)
+ .debug_str     0x0000125f       0x8d /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                                0x3e1 (size before relaxing)
+
+.comment        0x00000000      0x1ae
+ .comment       0x00000000       0x2b ./src/DiskImg.o
+ .comment       0x0000002b       0x2b ./src/clkconfig.o
+ .comment       0x00000056       0x2b ./src/cr_startup_lpc13.o
+ .comment       0x00000081       0x2b ./src/memory.o
+ .comment       0x000000ac       0x2b ./src/mscuser.o
+ .comment       0x000000d7       0x2b ./src/usbcore.o
+ .comment       0x00000102       0x2b ./src/usbdesc.o
+ .comment       0x0000012d       0x2b ./src/usbhw.o
+ .comment       0x00000158       0x2b ./src/usbuser.o
+ .comment       0x00000183       0x2b /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x31 ./src/DiskImg.o
+ .ARM.attributes
+                0x00000031       0x31 ./src/clkconfig.o
+ .ARM.attributes
+                0x00000062       0x31 ./src/cr_startup_lpc13.o
+ .ARM.attributes
+                0x00000093       0x31 ./src/memory.o
+ .ARM.attributes
+                0x000000c4       0x31 ./src/mscuser.o
+ .ARM.attributes
+                0x000000f5       0x31 ./src/usbcore.o
+ .ARM.attributes
+                0x00000126       0x31 ./src/usbdesc.o
+ .ARM.attributes
+                0x00000157       0x31 ./src/usbhw.o
+ .ARM.attributes
+                0x00000188       0x31 ./src/usbuser.o
+ .ARM.attributes
+                0x000001b9       0x31 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_loc      0x00000000     0x115e
+ .debug_loc     0x00000000       0x6e ./src/clkconfig.o
+ .debug_loc     0x0000006e      0x1e5 ./src/cr_startup_lpc13.o
+ .debug_loc     0x00000253       0x37 ./src/memory.o
+ .debug_loc     0x0000028a      0x3a4 ./src/mscuser.o
+ .debug_loc     0x0000062e      0x31c ./src/usbcore.o
+ .debug_loc     0x0000094a      0x5f3 ./src/usbhw.o
+ .debug_loc     0x00000f3d      0x188 ./src/usbuser.o
+ .debug_loc     0x000010c5       0x99 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_aranges  0x00000000      0x390
+ .debug_aranges
+                0x00000000       0x28 ./src/clkconfig.o
+ .debug_aranges
+                0x00000028       0x70 ./src/cr_startup_lpc13.o
+ .debug_aranges
+                0x00000098       0x20 ./src/memory.o
+ .debug_aranges
+                0x000000b8       0xb8 ./src/mscuser.o
+ .debug_aranges
+                0x00000170       0x98 ./src/usbcore.o
+ .debug_aranges
+                0x00000208      0x100 ./src/usbhw.o
+ .debug_aranges
+                0x00000308       0x58 ./src/usbuser.o
+ .debug_aranges
+                0x00000360       0x30 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_ranges   0x00000000      0x350
+ .debug_ranges  0x00000000       0x20 ./src/clkconfig.o
+ .debug_ranges  0x00000020       0x68 ./src/cr_startup_lpc13.o
+ .debug_ranges  0x00000088       0x18 ./src/memory.o
+ .debug_ranges  0x000000a0       0xb0 ./src/mscuser.o
+ .debug_ranges  0x00000150       0x90 ./src/usbcore.o
+ .debug_ranges  0x000001e0       0xf8 ./src/usbhw.o
+ .debug_ranges  0x000002d8       0x50 ./src/usbuser.o
+ .debug_ranges  0x00000328       0x28 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_frame    0x00000000      0xa74
+ .debug_frame   0x00000000       0x48 ./src/clkconfig.o
+ .debug_frame   0x00000048      0x120 ./src/cr_startup_lpc13.o
+ .debug_frame   0x00000168       0x30 ./src/memory.o
+ .debug_frame   0x00000198      0x250 ./src/mscuser.o
+ .debug_frame   0x000003e8      0x1d8 ./src/usbcore.o
+ .debug_frame   0x000005c0      0x368 ./src/usbhw.o
+ .debug_frame   0x00000928       0xe8 ./src/usbuser.o
+ .debug_frame   0x00000a10       0x64 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)

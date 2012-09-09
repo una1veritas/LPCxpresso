@@ -1,0 +1,309 @@
+Archive member included because of file (symbol)
+
+/home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                              ./src/crp_main.o (SystemCoreClock)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc13.o
+ .text          0x00000000        0x0 ./src/crp_main.o
+ .data          0x00000000        0x0 ./src/crp_main.o
+ .bss           0x00000000        0x0 ./src/crp_main.o
+ .text          0x00000000        0x0 ./src/gpio.o
+ .data          0x00000000        0x0 ./src/gpio.o
+ .bss           0x00000000        0x0 ./src/gpio.o
+ .rodata        0x00000000       0x10 ./src/gpio.o
+ .text.GPIOSetInterrupt
+                0x00000000      0x54c ./src/gpio.o
+ .text.GPIOIntEnable
+                0x00000000       0xf8 ./src/gpio.o
+ .text.GPIOIntDisable
+                0x00000000      0x108 ./src/gpio.o
+ .text.GPIOIntStatus
+                0x00000000       0xf0 ./src/gpio.o
+ .text.GPIOIntClear
+                0x00000000       0xf8 ./src/gpio.o
+ .text          0x00000000        0x0 ./src/timer32.o
+ .data          0x00000000        0x0 ./src/timer32.o
+ .text.delay32Ms
+                0x00000000      0x148 ./src/timer32.o
+ .text.disable_timer32
+                0x00000000       0x38 ./src/timer32.o
+ .text.reset_timer32
+                0x00000000       0x5c ./src/timer32.o
+ .text          0x00000000        0x0 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .bss           0x00000000        0x0 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000      0x358 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x00000000         0x00008000         xr
+RamLoc8          0x10000000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/cr_startup_lpc13.o
+LOAD ./src/crp_main.o
+LOAD ./src/gpio.o
+LOAD ./src/timer32.o
+LOAD /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a
+START GROUP
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_c.a
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_semihost.a
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/libcr_eabihelpers.a
+END GROUP
+                0x00008000                __top_MFlash32 = 0x8000
+                0x10002000                __top_RamLoc8 = 0x10002000
+
+.text           0x00000000      0xa84
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x124 ./src/cr_startup_lpc13.o
+                0x00000000                g_pfnVectors
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000124      0x1d8 00
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/crp_main.o
+                0x000002fc                CRP_WORD
+ *(.text*)
+ .text.Reset_Handler
+                0x00000300       0x88 ./src/cr_startup_lpc13.o
+                0x00000300                Reset_Handler
+                0x00000300                ResetISR
+ .text.NMI_Handler
+                0x00000388        0x8 ./src/cr_startup_lpc13.o
+                0x00000388                NMI_Handler
+ .text.HardFault_Handler
+                0x00000390        0x8 ./src/cr_startup_lpc13.o
+                0x00000390                HardFault_Handler
+ .text.MemManage_Handler
+                0x00000398        0x8 ./src/cr_startup_lpc13.o
+                0x00000398                MemManage_Handler
+ .text.BusFault_Handler
+                0x000003a0        0x8 ./src/cr_startup_lpc13.o
+                0x000003a0                BusFault_Handler
+ .text.UsageFault_Handler
+                0x000003a8        0x8 ./src/cr_startup_lpc13.o
+                0x000003a8                UsageFault_Handler
+ .text.SVCall_Handler
+                0x000003b0        0x8 ./src/cr_startup_lpc13.o
+                0x000003b0                SVCall_Handler
+ .text.DebugMon_Handler
+                0x000003b8        0x8 ./src/cr_startup_lpc13.o
+                0x000003b8                DebugMon_Handler
+ .text.PendSV_Handler
+                0x000003c0        0x8 ./src/cr_startup_lpc13.o
+                0x000003c0                PendSV_Handler
+ .text.SysTick_Handler
+                0x000003c8        0x8 ./src/cr_startup_lpc13.o
+                0x000003c8                SysTick_Handler
+ .text.IntDefaultHandler
+                0x000003d0        0x8 ./src/cr_startup_lpc13.o
+                0x000003d0                TIMER16_0_IRQHandler
+                0x000003d0                UART_IRQHandler
+                0x000003d0                PIOINT1_IRQHandler
+                0x000003d0                SSP_IRQHandler
+                0x000003d0                TIMER16_1_IRQHandler
+                0x000003d0                USB_FIQHandler
+                0x000003d0                ADC_IRQHandler
+                0x000003d0                PIOINT2_IRQHandler
+                0x000003d0                USB_IRQHandler
+                0x000003d0                BOD_IRQHandler
+                0x000003d0                WAKEUP_IRQHandler
+                0x000003d0                PIOINT0_IRQHandler
+                0x000003d0                I2C_IRQHandler
+                0x000003d0                WDT_IRQHandler
+                0x000003d0                PIOINT3_IRQHandler
+                0x000003d0                FMC_IRQHandler
+ .text.__WFI    0x000003d8        0xc ./src/crp_main.o
+ .text.GPIOSetValue
+                0x000003e4       0x3c ./src/crp_main.o
+ .text.GPIOSetDir
+                0x00000420       0x90 ./src/crp_main.o
+ .text.main     0x000004b0       0xa8 ./src/crp_main.o
+                0x000004b0                main
+ .text.NVIC_EnableIRQ
+                0x00000558       0x38 ./src/gpio.o
+ .text.GPIOInit
+                0x00000590       0x44 ./src/gpio.o
+                0x00000590                GPIOInit
+ .text.NVIC_EnableIRQ
+                0x000005d4       0x38 ./src/timer32.o
+ .text.TIMER32_0_IRQHandler
+                0x0000060c       0x30 ./src/timer32.o
+                0x0000060c                TIMER32_0_IRQHandler
+ .text.TIMER32_1_IRQHandler
+                0x0000063c       0x30 ./src/timer32.o
+                0x0000063c                TIMER32_1_IRQHandler
+ .text.enable_timer32
+                0x0000066c       0x38 ./src/timer32.o
+                0x0000066c                enable_timer32
+ .text.init_timer32
+                0x000006a4      0x1cc ./src/timer32.o
+                0x000006a4                init_timer32
+ .text.__NOP    0x00000870        0xc /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .text.SystemInit
+                0x0000087c      0x1f8 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                0x0000087c                SystemInit
+ *(.rodata*)
+ .rodata        0x00000a74       0x10 ./src/crp_main.o
+
+.glue_7         0x00000a84        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00000a84        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000a84        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000a84        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000a84                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000a84                __exidx_end = .
+                0x00000a84                _etext = .
+
+.data           0x10000000        0x4 load address 0x00000a84
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data          0x10000000        0x4 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                0x10000000                SystemCoreClock
+                0x10000004                _edata = .
+
+.bss            0x10000004        0x8 load address 0x00000a88
+                0x10000004                _bss = .
+ *(.bss*)
+ .bss           0x10000004        0x8 ./src/timer32.o
+                0x10000004                timer32_0_counter
+                0x10000008                timer32_1_counter
+ *(COMMON)
+                0x1000000c                _ebss = .
+
+.cr_heap        0x1000000c        0x0
+                0x1000000c                end = .
+                0x1000000c                _pvHeapStart = .
+                0x10002000                _vRamTop = __top_RamLoc8
+                0x10001ff0                _vStackTop = (_vRamTop - 0x10)
+OUTPUT(crp.axf elf32-littlearm)
+
+.debug_abbrev   0x00000000      0x6ba
+ .debug_abbrev  0x00000000       0xdf ./src/cr_startup_lpc13.o
+ .debug_abbrev  0x000000df      0x191 ./src/crp_main.o
+ .debug_abbrev  0x00000270      0x1d9 ./src/gpio.o
+ .debug_abbrev  0x00000449      0x189 ./src/timer32.o
+ .debug_abbrev  0x000005d2       0xe8 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_info     0x00000000     0x257c
+ .debug_info    0x00000000      0x1ed ./src/cr_startup_lpc13.o
+ .debug_info    0x000001ed      0x706 ./src/crp_main.o
+ .debug_info    0x000008f3      0xa80 ./src/gpio.o
+ .debug_info    0x00001373      0xcbc ./src/timer32.o
+ .debug_info    0x0000202f      0x54d /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_line     0x00000000      0x8ba
+ .debug_line    0x00000000      0x1b9 ./src/cr_startup_lpc13.o
+ .debug_line    0x000001b9      0x18c ./src/crp_main.o
+ .debug_line    0x00000345      0x205 ./src/gpio.o
+ .debug_line    0x0000054a      0x1d4 ./src/timer32.o
+ .debug_line    0x0000071e      0x19c /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_macinfo  0x00000000    0x15495
+ .debug_macinfo
+                0x00000000     0x15a1 ./src/cr_startup_lpc13.o
+ .debug_macinfo
+                0x000015a1     0x5088 ./src/crp_main.o
+ .debug_macinfo
+                0x00006629     0x4e38 ./src/gpio.o
+ .debug_macinfo
+                0x0000b461     0x4eb6 ./src/timer32.o
+ .debug_macinfo
+                0x00010317     0x517e /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_loc      0x00000000      0x657
+ .debug_loc     0x00000000      0x1e5 ./src/cr_startup_lpc13.o
+ .debug_loc     0x000001e5       0xc4 ./src/crp_main.o
+ .debug_loc     0x000002a9      0x175 ./src/gpio.o
+ .debug_loc     0x0000041e      0x1a0 ./src/timer32.o
+ .debug_loc     0x000005be       0x99 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_pubnames
+                0x00000000      0x2a7
+ .debug_pubnames
+                0x00000000       0xec ./src/cr_startup_lpc13.o
+ .debug_pubnames
+                0x000000ec       0x28 ./src/crp_main.o
+ .debug_pubnames
+                0x00000114       0x7c ./src/gpio.o
+ .debug_pubnames
+                0x00000190       0xc8 ./src/timer32.o
+ .debug_pubnames
+                0x00000258       0x4f /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_aranges  0x00000000      0x180
+ .debug_aranges
+                0x00000000       0x70 ./src/cr_startup_lpc13.o
+ .debug_aranges
+                0x00000070       0x38 ./src/crp_main.o
+ .debug_aranges
+                0x000000a8       0x50 ./src/gpio.o
+ .debug_aranges
+                0x000000f8       0x58 ./src/timer32.o
+ .debug_aranges
+                0x00000150       0x30 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_ranges   0x00000000      0x158
+ .debug_ranges  0x00000000       0x68 ./src/cr_startup_lpc13.o
+ .debug_ranges  0x00000068       0x30 ./src/crp_main.o
+ .debug_ranges  0x00000098       0x48 ./src/gpio.o
+ .debug_ranges  0x000000e0       0x50 ./src/timer32.o
+ .debug_ranges  0x00000130       0x28 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_str      0x00000000      0xbbb
+ .debug_str     0x00000000      0x18b ./src/cr_startup_lpc13.o
+                                0x1bf (size before relaxing)
+ .debug_str     0x0000018b      0x368 ./src/crp_main.o
+                                0x41f (size before relaxing)
+ .debug_str     0x000004f3      0x41c ./src/gpio.o
+                                0x7d9 (size before relaxing)
+ .debug_str     0x0000090f      0x22f ./src/timer32.o
+                                0x97a (size before relaxing)
+ .debug_str     0x00000b3e       0x7d /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                                0x3e1 (size before relaxing)
+
+.comment        0x00000000       0xd7
+ .comment       0x00000000       0x2b ./src/cr_startup_lpc13.o
+ .comment       0x0000002b       0x2b ./src/crp_main.o
+ .comment       0x00000056       0x2b ./src/gpio.o
+ .comment       0x00000081       0x2b ./src/timer32.o
+ .comment       0x000000ac       0x2b /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x31 ./src/cr_startup_lpc13.o
+ .ARM.attributes
+                0x00000031       0x31 ./src/crp_main.o
+ .ARM.attributes
+                0x00000062       0x31 ./src/gpio.o
+ .ARM.attributes
+                0x00000093       0x31 ./src/timer32.o
+ .ARM.attributes
+                0x000000c4       0x31 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+
+.debug_frame    0x00000000      0x3c0
+ .debug_frame   0x00000000      0x120 ./src/cr_startup_lpc13.o
+ .debug_frame   0x00000120       0x7c ./src/crp_main.o
+ .debug_frame   0x0000019c       0xd4 ./src/gpio.o
+ .debug_frame   0x00000270       0xec ./src/timer32.o
+ .debug_frame   0x0000035c       0x64 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)

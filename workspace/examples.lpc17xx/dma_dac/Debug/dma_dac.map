@@ -1,0 +1,437 @@
+Archive member included because of file (symbol)
+
+/home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                              ./src/cr_startup_lpc17.o (SystemInit)
+/usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc17.o (__main)
+
+Allocating common symbols
+Common symbol       size              file
+
+SysTickCount        0x4               ./src/main.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x0 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .bss           0x00000000        0x0 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .init          0x00000000        0x4 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .fini          0x00000000        0x4 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .text          0x00000000       0x30 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .data          0x00000000        0x4 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .bss           0x00000000        0x1 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .init_array    0x00000000        0x4 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .fini_array    0x00000000        0x4 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .jcr           0x00000000        0x0 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc17.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc17.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc17.o
+ .text.SysTick_Handler
+                0x00000000        0x8 ./src/cr_startup_lpc17.o
+ .text          0x00000000        0x0 ./src/dma.o
+ .data          0x00000000        0x0 ./src/dma.o
+ .bss           0x00000000        0x0 ./src/dma.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .text          0x00000000        0x0 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .data          0x00000000        0x4 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x00000000        0x0 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000      0x228 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .data          0x00000000        0x0 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .bss           0x00000000        0x0 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .jcr           0x00000000        0x4 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .text          0x00000000        0x0 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .data          0x00000000        0x0 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .bss           0x00000000        0x0 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .init          0x00000000        0x8 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .fini          0x00000000        0x8 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .text          0x00000000        0x0 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+CANAccFilterRAM  0x40038000         0x00000800         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+LOAD ./src/cr_startup_lpc17.o
+LOAD ./src/dma.o
+LOAD ./src/main.o
+LOAD /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a
+START GROUP
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/libgcc.a
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libc.a
+END GROUP
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+START GROUP
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_c.a
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_semihost.a
+LOAD /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/libcr_eabihelpers.a
+END GROUP
+                0x00080000                __top_MFlash512 = 0x80000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x20084000                __top_RamAHB32 = 0x20084000
+                0x40038800                __top_CANAccFilterRAM = 0x40038800
+
+.text           0x00000000      0xb3c
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/cr_startup_lpc17.o
+                0x00000000                g_pfnVectors
+ *(.text*)
+ .text.ResetISR
+                0x000000cc       0x68 ./src/cr_startup_lpc17.o
+                0x000000cc                ResetISR
+ .text.NMI_Handler
+                0x00000134        0x8 ./src/cr_startup_lpc17.o
+                0x00000134                NMI_Handler
+ .text.HardFault_Handler
+                0x0000013c        0x8 ./src/cr_startup_lpc17.o
+                0x0000013c                HardFault_Handler
+ .text.MemManage_Handler
+                0x00000144        0x8 ./src/cr_startup_lpc17.o
+                0x00000144                MemManage_Handler
+ .text.BusFault_Handler
+                0x0000014c        0x8 ./src/cr_startup_lpc17.o
+                0x0000014c                BusFault_Handler
+ .text.UsageFault_Handler
+                0x00000154        0x8 ./src/cr_startup_lpc17.o
+                0x00000154                UsageFault_Handler
+ .text.SVCall_Handler
+                0x0000015c        0x8 ./src/cr_startup_lpc17.o
+                0x0000015c                SVCall_Handler
+ .text.DebugMon_Handler
+                0x00000164        0x8 ./src/cr_startup_lpc17.o
+                0x00000164                DebugMon_Handler
+ .text.PendSV_Handler
+                0x0000016c        0x8 ./src/cr_startup_lpc17.o
+                0x0000016c                PendSV_Handler
+ .text.IntDefaultHandler
+                0x00000174        0x8 ./src/cr_startup_lpc17.o
+                0x00000174                TIMER2_IRQHandler
+                0x00000174                RIT_IRQHandler
+                0x00000174                I2C0_IRQHandler
+                0x00000174                USBActivity_IRQHandler
+                0x00000174                PWM1_IRQHandler
+                0x00000174                I2C1_IRQHandler
+                0x00000174                EINT2_IRQHandler
+                0x00000174                UART1_IRQHandler
+                0x00000174                EINT3_IRQHandler
+                0x00000174                CANActivity_IRQHandler
+                0x00000174                TIMER3_IRQHandler
+                0x00000174                UART0_IRQHandler
+                0x00000174                IntDefaultHandler
+                0x00000174                PLL0_IRQHandler
+                0x00000174                CAN_IRQHandler
+                0x00000174                PLL1_IRQHandler
+                0x00000174                SSP0_IRQHandler
+                0x00000174                I2S_IRQHandler
+                0x00000174                I2C2_IRQHandler
+                0x00000174                RTC_IRQHandler
+                0x00000174                TIMER0_IRQHandler
+                0x00000174                SPI_IRQHandler
+                0x00000174                EINT1_IRQHandler
+                0x00000174                TIMER1_IRQHandler
+                0x00000174                UART2_IRQHandler
+                0x00000174                ADC_IRQHandler
+                0x00000174                SSP1_IRQHandler
+                0x00000174                USB_IRQHandler
+                0x00000174                BOD_IRQHandler
+                0x00000174                WDT_IRQHandler
+                0x00000174                QEI_IRQHandler
+                0x00000174                EINT0_IRQHandler
+                0x00000174                DMA_IRQHandler
+                0x00000174                UART3_IRQHandler
+                0x00000174                MCPWM_IRQHandler
+                0x00000174                ENET_IRQHandler
+ .text.initDMA  0x0000017c       0xac ./src/dma.o
+                0x0000017c                initDMA
+ .text.updateBuffer
+                0x00000228       0xcc ./src/dma.o
+                0x00000228                updateBuffer
+ .text.__WFI    0x000002f4        0xc ./src/main.o
+ .text.NVIC_SetPriority
+                0x00000300       0x5c ./src/main.o
+ .text.SysTick_Config
+                0x0000035c       0x64 ./src/main.o
+ .text.initDAC  0x000003c0       0x50 ./src/main.o
+ .text.joystickToWave
+                0x00000410      0x14c ./src/main.o
+ .text.joystickToPhase
+                0x0000055c       0x88 ./src/main.o
+ .text.SysTick_Handler
+                0x000005e4       0x24 ./src/main.o
+                0x000005e4                SysTick_Handler
+ .text.main     0x00000608      0x10c ./src/main.o
+                0x00000608                main
+ .text.SystemInit
+                0x00000714      0x224 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                0x00000714                SystemInit
+ .text.__weak_main
+                0x00000938        0x4 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_c.a(__weak__main.o)
+                0x00000938                __main
+                0x00000938                __weak_main
+ *(.rodata*)
+ .rodata.triangle_buff
+                0x0000093c       0x80 ./src/dma.o
+                0x0000093c                triangle_buff
+ .rodata.sine_buff
+                0x000009bc       0x80 ./src/dma.o
+                0x000009bc                sine_buff
+ .rodata.square_buff
+                0x00000a3c       0x80 ./src/dma.o
+                0x00000a3c                square_buff
+ .rodata.sine2_buff
+                0x00000abc       0x80 ./src/dma.o
+                0x00000abc                sine2_buff
+
+.glue_7         0x00000b3c        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00000b3c        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000b3c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000b3c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000b3c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000b3c                __exidx_end = .
+                0x00000b3c                _etext = .
+
+.data           0x10000000        0x0 load address 0x00000b3c
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+                0x10000000                _edata = .
+
+.bss            0x10000000        0x8
+                0x10000000                _bss = .
+ *(.bss*)
+ .bss.state.2048
+                0x10000000        0x1 ./src/main.o
+ .bss.waveIndex.2042
+                0x10000001        0x1 ./src/main.o
+ *(COMMON)
+ *fill*         0x10000002        0x2 00
+ COMMON         0x10000004        0x4 ./src/main.o
+                0x10000004                SysTickCount
+                0x10000008                _ebss = .
+
+.cr_heap        0x10000008        0x0
+                0x10000008                end = .
+                0x10000008                _pvHeapStart = .
+
+.ahb_ram        0x2007c000      0x220
+ *(.ahb_ram*)
+ .ahb_ram       0x2007c000      0x220 ./src/main.o
+                0x10008000                _vRamTop = __top_RamLoc32
+                0x10007ff0                _vStackTop = (_vRamTop - 0x10)
+OUTPUT(dma_dac.axf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x25
+ .ARM.attributes
+                0x00000000       0x19 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .ARM.attributes
+                0x00000019       0x29 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .ARM.attributes
+                0x00000042       0x31 ./src/cr_startup_lpc17.o
+ .ARM.attributes
+                0x00000073       0x31 ./src/dma.o
+ .ARM.attributes
+                0x000000a4       0x31 ./src/main.o
+ .ARM.attributes
+                0x000000d5       0x31 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .ARM.attributes
+                0x00000106       0x29 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .ARM.attributes
+                0x0000012f       0x19 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .ARM.attributes
+                0x00000148       0x31 /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_c.a(__weak__main.o)
+
+.comment        0x00000000       0xd7
+ .comment       0x00000000       0x2b ./src/cr_startup_lpc17.o
+ .comment       0x0000002b       0x2b ./src/dma.o
+ .comment       0x00000056       0x2b ./src/main.o
+ .comment       0x00000081       0x2b /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x000000ac       0x2b /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_c.a(__weak__main.o)
+
+.debug_abbrev   0x00000000      0x4eb
+ .debug_abbrev  0x00000000       0xbd ./src/cr_startup_lpc17.o
+ .debug_abbrev  0x000000bd      0x127 ./src/dma.o
+ .debug_abbrev  0x000001e4      0x241 ./src/main.o
+ .debug_abbrev  0x00000425       0xc6 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+
+.debug_info     0x00000000     0x191c
+ .debug_info    0x00000000      0x1e5 ./src/cr_startup_lpc17.o
+ .debug_info    0x000001e5      0x59c ./src/dma.o
+ .debug_info    0x00000781      0xe67 ./src/main.o
+ .debug_info    0x000015e8      0x334 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+
+.debug_line     0x00000000      0x6ac
+ .debug_line    0x00000000      0x1b9 ./src/cr_startup_lpc17.o
+ .debug_line    0x000001b9      0x16b ./src/dma.o
+ .debug_line    0x00000324      0x21d ./src/main.o
+ .debug_line    0x00000541      0x16b /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+
+.debug_macinfo  0x00000000    0x127af
+ .debug_macinfo
+                0x00000000     0x15a1 ./src/cr_startup_lpc17.o
+ .debug_macinfo
+                0x000015a1     0x59ee ./src/dma.o
+ .debug_macinfo
+                0x00006f8f     0x5bba ./src/main.o
+ .debug_macinfo
+                0x0000cb49     0x5c66 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+
+.debug_loc      0x00000000      0x431
+ .debug_loc     0x00000000      0x1e5 ./src/cr_startup_lpc17.o
+ .debug_loc     0x000001e5       0x6e ./src/dma.o
+ .debug_loc     0x00000253      0x188 ./src/main.o
+ .debug_loc     0x000003db       0x56 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+
+.debug_pubnames
+                0x00000000      0x1fa
+ .debug_pubnames
+                0x00000000       0xfd ./src/cr_startup_lpc17.o
+ .debug_pubnames
+                0x000000fd       0x6e ./src/dma.o
+ .debug_pubnames
+                0x0000016b       0x40 ./src/main.o
+ .debug_pubnames
+                0x000001ab       0x4f /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+
+.debug_aranges  0x00000000      0x118
+ .debug_aranges
+                0x00000000       0x70 ./src/cr_startup_lpc17.o
+ .debug_aranges
+                0x00000070       0x28 ./src/dma.o
+ .debug_aranges
+                0x00000098       0x58 ./src/main.o
+ .debug_aranges
+                0x000000f0       0x28 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+
+.debug_ranges   0x00000000       0xf8
+ .debug_ranges  0x00000000       0x68 ./src/cr_startup_lpc17.o
+ .debug_ranges  0x00000068       0x20 ./src/dma.o
+ .debug_ranges  0x00000088       0x50 ./src/main.o
+ .debug_ranges  0x000000d8       0x20 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+
+.debug_str      0x00000000      0xa9d
+ .debug_str     0x00000000      0x17f ./src/cr_startup_lpc17.o
+                                0x1b3 (size before relaxing)
+ .debug_str     0x0000017f      0x31c ./src/dma.o
+                                0x3d7 (size before relaxing)
+ .debug_str     0x0000049b      0x583 ./src/main.o
+                                0x7f9 (size before relaxing)
+ .debug_str     0x00000a1e       0x7f /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                                0x247 (size before relaxing)
+
+.debug_frame    0x00000000      0x290
+ .debug_frame   0x00000000      0x120 ./src/cr_startup_lpc17.o
+ .debug_frame   0x00000120       0x48 ./src/dma.o
+ .debug_frame   0x00000168       0xe8 ./src/main.o
+ .debug_frame   0x00000250       0x40 /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_IRQHandler                                    ./src/cr_startup_lpc17.o
+BOD_IRQHandler                                    ./src/cr_startup_lpc17.o
+BusFault_Handler                                  ./src/cr_startup_lpc17.o
+CANActivity_IRQHandler                            ./src/cr_startup_lpc17.o
+CAN_IRQHandler                                    ./src/cr_startup_lpc17.o
+DMA_IRQHandler                                    ./src/cr_startup_lpc17.o
+DebugMon_Handler                                  ./src/cr_startup_lpc17.o
+EINT0_IRQHandler                                  ./src/cr_startup_lpc17.o
+EINT1_IRQHandler                                  ./src/cr_startup_lpc17.o
+EINT2_IRQHandler                                  ./src/cr_startup_lpc17.o
+EINT3_IRQHandler                                  ./src/cr_startup_lpc17.o
+ENET_IRQHandler                                   ./src/cr_startup_lpc17.o
+HardFault_Handler                                 ./src/cr_startup_lpc17.o
+I2C0_IRQHandler                                   ./src/cr_startup_lpc17.o
+I2C1_IRQHandler                                   ./src/cr_startup_lpc17.o
+I2C2_IRQHandler                                   ./src/cr_startup_lpc17.o
+I2S_IRQHandler                                    ./src/cr_startup_lpc17.o
+IntDefaultHandler                                 ./src/cr_startup_lpc17.o
+MCPWM_IRQHandler                                  ./src/cr_startup_lpc17.o
+MemManage_Handler                                 ./src/cr_startup_lpc17.o
+NMI_Handler                                       ./src/cr_startup_lpc17.o
+PLL0_IRQHandler                                   ./src/cr_startup_lpc17.o
+PLL1_IRQHandler                                   ./src/cr_startup_lpc17.o
+PWM1_IRQHandler                                   ./src/cr_startup_lpc17.o
+PendSV_Handler                                    ./src/cr_startup_lpc17.o
+QEI_IRQHandler                                    ./src/cr_startup_lpc17.o
+RIT_IRQHandler                                    ./src/cr_startup_lpc17.o
+RTC_IRQHandler                                    ./src/cr_startup_lpc17.o
+ResetISR                                          ./src/cr_startup_lpc17.o
+SPI_IRQHandler                                    ./src/cr_startup_lpc17.o
+SSP0_IRQHandler                                   ./src/cr_startup_lpc17.o
+SSP1_IRQHandler                                   ./src/cr_startup_lpc17.o
+SVCall_Handler                                    ./src/cr_startup_lpc17.o
+SysTickCount                                      ./src/main.o
+SysTick_Handler                                   ./src/main.o
+                                                  ./src/cr_startup_lpc17.o
+SystemCoreClock                                   /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+SystemCoreClockUpdate                             /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+SystemInit                                        /home/nxp/Desktop/linuxtest1/CMSISv1p30_LPC17xx/Debug/libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                                                  ./src/cr_startup_lpc17.o
+TIMER0_IRQHandler                                 ./src/cr_startup_lpc17.o
+TIMER1_IRQHandler                                 ./src/cr_startup_lpc17.o
+TIMER2_IRQHandler                                 ./src/cr_startup_lpc17.o
+TIMER3_IRQHandler                                 ./src/cr_startup_lpc17.o
+UART0_IRQHandler                                  ./src/cr_startup_lpc17.o
+UART1_IRQHandler                                  ./src/cr_startup_lpc17.o
+UART2_IRQHandler                                  ./src/cr_startup_lpc17.o
+UART3_IRQHandler                                  ./src/cr_startup_lpc17.o
+USBActivity_IRQHandler                            ./src/cr_startup_lpc17.o
+USB_IRQHandler                                    ./src/cr_startup_lpc17.o
+UsageFault_Handler                                ./src/cr_startup_lpc17.o
+WDT_IRQHandler                                    ./src/cr_startup_lpc17.o
+_Jv_RegisterClasses                               /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+__dso_handle                                      /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+__main                                            /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_c.a(__weak__main.o)
+                                                  ./src/cr_startup_lpc17.o
+__weak_main                                       /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_c.a(__weak__main.o)
+_bss                                              ./src/cr_startup_lpc17.o
+_data                                             ./src/cr_startup_lpc17.o
+_ebss                                             ./src/cr_startup_lpc17.o
+_edata                                            ./src/cr_startup_lpc17.o
+_etext                                            ./src/cr_startup_lpc17.o
+_fini                                             /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+_init                                             /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+_vStackTop                                        ./src/cr_startup_lpc17.o
+g_pfnVectors                                      ./src/cr_startup_lpc17.o
+initDMA                                           ./src/dma.o
+                                                  ./src/main.o
+main                                              ./src/main.o
+                                                  /usr/local/LPCXpresso/tools/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2/libcr_c.a(__weak__main.o)
+sine2_buff                                        ./src/dma.o
+                                                  ./src/main.o
+sine_buff                                         ./src/dma.o
+                                                  ./src/main.o
+square_buff                                       ./src/dma.o
+                                                  ./src/main.o
+triangle_buff                                     ./src/dma.o
+                                                  ./src/main.o
+updateBuffer                                      ./src/dma.o
+                                                  ./src/main.o

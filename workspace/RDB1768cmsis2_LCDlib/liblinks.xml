@@ -1,0 +1,29 @@
+<!-- liblinks.xml
+
+     Code Red Technologies "Smart update wizard" script file
+     When executed on a particular application project, will
+     add appropriate links to the specified library project.
+
+     Note that this script assumes that the application project
+     contains the standard 'Debug' and 'Release' build 
+     configurations.
+-->
+
+<project name="" update="true">
+	<setting id="all.compiler.inc">
+		<value>${workspace_loc:/RDB1768cmsis2_LCDlib/inc}</value>
+        </setting>
+	<setting id="linker.libs">
+		<value>RDB1768cmsis2_LCDlib</value>
+	</setting>
+	<setting id="linker.paths" buildType="Debug">
+		<value>${workspace_loc:/RDB1768cmsis2_LCDlib/Debug}</value>
+	</setting>
+	<setting id="linker.paths" buildType="Release">
+		<value>${workspace_loc:/RDB1768cmsis2_LCDlib/Release}</value>
+	</setting>
+	<requires msg="Library project `RDB1768cmsis2_LCDlib` not found">
+		<value>RDB1768cmsis2_LCDlib</value>
+	</requires>
+</project>
+

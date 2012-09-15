@@ -1,0 +1,16 @@
+The uIP TCP/IP stack is an extremely small implementation 
+of the TCP/IP protocol suite intended for embedded systems 
+running low-end 8 or 16-bit microcontrollers. The code size 
+and RAM requirements of uIP is an order of magnitude smaller 
+than other generic TCP/IP stacks today. It can only handle a 
+single network interface and contains the IP, ICMP, UDP and 
+TCP protocols.
+
+The uip_webserver implements WEB server.
+
+The default IP address is:
+192.168.0.100
+
+The uip_webserver program is available in 2 targets: 
+  MCB1700 IRAM 	: 	runs from Internal SRAM on Keil MCB1700 board
+  MCB1700 FLASH	: 	runs from Internal Flash on Keil MCB1700 board

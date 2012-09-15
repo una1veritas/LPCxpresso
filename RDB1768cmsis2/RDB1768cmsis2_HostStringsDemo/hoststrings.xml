@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?debugstack-directory version="1.0"?>
+<toHost id="hoststrings" includeName="hoststrings.h" processor="CM3">
+<description>Host Strings Managed Definitions</description>
+<channelGroup end="1" id="task" start="1">
+<string index="0" name="DisplayVal" packing="w">msticks = %[w]d</string>
+<string index="1" name="LedsOn">LEDs now on</string>
+<string index="2" name="LedsOff">LEDs now off</string>
+</channelGroup>
+</toHost>

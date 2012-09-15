@@ -1,0 +1,11 @@
+checksum.exe is an executable that can be used to add checksum data
+to a binary image, which can be used by the bootloader to determine
+that the image is valid.
+
+You will only need the copy of checksum.exe from this directory
+if your version of the Code Red tools does not already have it 
+installed.
+
+For more information please see the main 
+RDB1768cmsis_usb_bootloader "readme.txt".
+

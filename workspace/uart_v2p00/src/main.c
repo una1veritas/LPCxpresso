@@ -68,10 +68,10 @@ int main (void)
 			des((uint8_t *)UART3Buffer, bto);
 
 			UARTSend(3, (uint8_t *) UART3Buffer, 8 );
-			UARTSend(3, "\r\n", 2 );
+			UARTSend(3, (uint8_t *) "\r\n", 2 );
 			UARTSend(3, (uint8_t *) bto, 8 );
-			UARTSend(3, "\r\n", 2 );
-			UARTSend(3, "\r\n", 2 );
+			UARTSend(3, (uint8_t *) "\r\n", 2 );
+			UARTSend(3, (uint8_t *) "\r\n", 2 );
 
 			UART3Count = 0;
 			LPC_UART3->IER = IER_THRE | IER_RLS | IER_RBR;		/* Re-enable RBR */

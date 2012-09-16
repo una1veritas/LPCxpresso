@@ -10,6 +10,7 @@ RM := rm -rf
 -include sources.mk
 -include subdir.mk
 -include src/subdir.mk
+-include hardware/LPCxpresso_1769/cores/arduino/subdir.mk
 -include DES-oute/subdir.mk
 -include objects.mk
 

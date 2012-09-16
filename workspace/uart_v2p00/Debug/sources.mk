@@ -15,5 +15,6 @@ EXECUTABLES :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 src \
+hardware/LPCxpresso_1769/cores/arduino \
 DES-oute \
 

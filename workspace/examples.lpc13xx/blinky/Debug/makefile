@@ -29,7 +29,7 @@ all: blinky.axf
 blinky.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"/Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug" -Xlinker --gc-sections -Xlinker -Map=blinky.map -mcpu=cortex-m3 -mthumb -T "lpcxpresso1343_blinky_Debug.ld" -o"blinky.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug" -Xlinker --gc-sections -Xlinker -Map=blinky.map -mcpu=cortex-m3 -mthumb -T "lpcxpresso1343_blinky_Debug.ld" -o"blinky.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

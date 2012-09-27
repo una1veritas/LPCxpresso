@@ -1,8 +1,9 @@
 /*
  * GENERATED FILE - DO NOT EDIT
- * (C) Code Red Technologies Ltd, 2008-9
- * Generated linker script include file for 
- * (created from LinkMemoryTemplate (v3.5.1 (201009191457)) on Thu Sep 23 16:52:53 PDT 2010)
+ * (C) Code Red Technologies Ltd, 2008-2012
+ * Linker script memory definitions
+ * Created from LinkMemoryTemplate
+ * By Red Suite v4.3.0 [Build 1033] [2012-09-19]  on Thu Sep 27 01:54:20 JST 2012)
 */
 
 MEMORY

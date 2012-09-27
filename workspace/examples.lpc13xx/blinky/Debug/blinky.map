@@ -1,6 +1,6 @@
 Archive member included because of file (symbol)
 
-/Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+/Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
                               ./src/blinky_main.o (SystemCoreClock)
 
 Discarded input sections
@@ -40,10 +40,10 @@ Discarded input sections
                 0x0000000000000000       0x38 ./src/timer32.o
  .text.reset_timer32
                 0x0000000000000000       0x5c ./src/timer32.o
- .text          0x0000000000000000        0x0 /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
- .bss           0x0000000000000000        0x0 /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .text          0x0000000000000000        0x0 /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .bss           0x0000000000000000        0x0 /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
  .text.SystemCoreClockUpdate
-                0x0000000000000000      0x35c /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                0x0000000000000000      0x35c /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
 
 Memory Configuration
 
@@ -59,10 +59,10 @@ LOAD ./src/clkconfig.o
 LOAD ./src/cr_startup_lpc13.o
 LOAD ./src/gpio.o
 LOAD ./src/timer32.o
-LOAD /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a
+LOAD /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a
 START GROUP
-LOAD /Applications/lpcxpresso_4.2.4_267/lpcxpresso/Tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a
-LOAD /Applications/lpcxpresso_4.2.4_267/lpcxpresso/Tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m/libcr_eabihelpers.a
+LOAD /Applications/lpcxpresso_4.2.4/lpcxpresso/Tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a
+LOAD /Applications/lpcxpresso_4.2.4/lpcxpresso/Tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m/libcr_eabihelpers.a
 END GROUP
                 0x0000000000008000                __top_MFlash32 = 0x8000
                 0x0000000010002000                __top_RamLoc8 = 0x10002000
@@ -161,9 +161,9 @@ END GROUP
  .text.init_timer32
                 0x00000000000004dc      0x1cc ./src/timer32.o
                 0x00000000000004dc                init_timer32
- .text.__NOP    0x00000000000006a8        0xc /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .text.__NOP    0x00000000000006a8        0xc /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
  .text.SystemInit
-                0x00000000000006b4      0x200 /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                0x00000000000006b4      0x200 /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
                 0x00000000000006b4                SystemInit
  *(.rodata .rodata.*)
  .rodata        0x00000000000008b4       0x10 ./src/blinky_main.o
@@ -198,7 +198,7 @@ END GROUP
                 0x0000000010000000                _data = .
  *(vtable)
  *(.data*)
- .data          0x0000000010000000        0x4 /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .data          0x0000000010000000        0x4 /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
                 0x0000000010000000                SystemCoreClock
                 0x0000000010000004                . = ALIGN (0x4)
                 0x0000000010000004                _edata = .
@@ -217,21 +217,21 @@ END GROUP
                 0x0000000010002000                PROVIDE (_vStackTop, (__top_RamLoc8 - 0x0))
 OUTPUT(blinky.axf elf32-littlearm)
 
-.debug_info     0x0000000000000000     0x2d89
- .debug_info    0x0000000000000000      0x747 ./src/blinky_main.o
- .debug_info    0x0000000000000747      0x562 ./src/clkconfig.o
- .debug_info    0x0000000000000ca9      0x221 ./src/cr_startup_lpc13.o
- .debug_info    0x0000000000000eca      0xadb ./src/gpio.o
- .debug_info    0x00000000000019a5      0xe4c ./src/timer32.o
- .debug_info    0x00000000000027f1      0x598 /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+.debug_info     0x0000000000000000     0x2ba7
+ .debug_info    0x0000000000000000      0x71f ./src/blinky_main.o
+ .debug_info    0x000000000000071f      0x53a ./src/clkconfig.o
+ .debug_info    0x0000000000000c59      0x221 ./src/cr_startup_lpc13.o
+ .debug_info    0x0000000000000e7a      0xaa1 ./src/gpio.o
+ .debug_info    0x000000000000191b      0xd1c ./src/timer32.o
+ .debug_info    0x0000000000002637      0x570 /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
 
-.debug_abbrev   0x0000000000000000      0x7ff
- .debug_abbrev  0x0000000000000000      0x191 ./src/blinky_main.o
- .debug_abbrev  0x0000000000000191       0xd1 ./src/clkconfig.o
- .debug_abbrev  0x0000000000000262       0xd6 ./src/cr_startup_lpc13.o
- .debug_abbrev  0x0000000000000338      0x1ea ./src/gpio.o
- .debug_abbrev  0x0000000000000522      0x1ca ./src/timer32.o
- .debug_abbrev  0x00000000000006ec      0x113 /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+.debug_abbrev   0x0000000000000000      0x748
+ .debug_abbrev  0x0000000000000000      0x177 ./src/blinky_main.o
+ .debug_abbrev  0x0000000000000177       0xae ./src/clkconfig.o
+ .debug_abbrev  0x0000000000000225       0xd6 ./src/cr_startup_lpc13.o
+ .debug_abbrev  0x00000000000002fb      0x1d0 ./src/gpio.o
+ .debug_abbrev  0x00000000000004cb      0x18d ./src/timer32.o
+ .debug_abbrev  0x0000000000000658       0xf0 /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
 
 .debug_loc      0x0000000000000000      0x6e8
  .debug_loc     0x0000000000000000       0xc8 ./src/blinky_main.o
@@ -239,7 +239,7 @@ OUTPUT(blinky.axf elf32-littlearm)
  .debug_loc     0x0000000000000138      0x1f0 ./src/cr_startup_lpc13.o
  .debug_loc     0x0000000000000328      0x17c ./src/gpio.o
  .debug_loc     0x00000000000004a4      0x1a8 ./src/timer32.o
- .debug_loc     0x000000000000064c       0x9c /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .debug_loc     0x000000000000064c       0x9c /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
 
 .debug_aranges  0x0000000000000000      0x1a8
  .debug_aranges
@@ -253,7 +253,7 @@ OUTPUT(blinky.axf elf32-littlearm)
  .debug_aranges
                 0x0000000000000120       0x58 ./src/timer32.o
  .debug_aranges
-                0x0000000000000178       0x30 /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                0x0000000000000178       0x30 /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
 
 .debug_ranges   0x0000000000000000      0x148
  .debug_ranges  0x0000000000000000       0x28 ./src/blinky_main.o
@@ -261,43 +261,43 @@ OUTPUT(blinky.axf elf32-littlearm)
  .debug_ranges  0x0000000000000040       0x60 ./src/cr_startup_lpc13.o
  .debug_ranges  0x00000000000000a0       0x40 ./src/gpio.o
  .debug_ranges  0x00000000000000e0       0x48 ./src/timer32.o
- .debug_ranges  0x0000000000000128       0x20 /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .debug_ranges  0x0000000000000128       0x20 /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
 
-.debug_line     0x0000000000000000     0x19d7
- .debug_line    0x0000000000000000      0x418 ./src/blinky_main.o
- .debug_line    0x0000000000000418      0x3d7 ./src/clkconfig.o
- .debug_line    0x00000000000007ef      0x472 ./src/cr_startup_lpc13.o
- .debug_line    0x0000000000000c61      0x4a4 ./src/gpio.o
- .debug_line    0x0000000000001105      0x478 ./src/timer32.o
- .debug_line    0x000000000000157d      0x45a /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+.debug_line     0x0000000000000000     0x19c5
+ .debug_line    0x0000000000000000      0x415 ./src/blinky_main.o
+ .debug_line    0x0000000000000415      0x3d4 ./src/clkconfig.o
+ .debug_line    0x00000000000007e9      0x46f ./src/cr_startup_lpc13.o
+ .debug_line    0x0000000000000c58      0x4a1 ./src/gpio.o
+ .debug_line    0x00000000000010f9      0x475 ./src/timer32.o
+ .debug_line    0x000000000000156e      0x457 /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
 
-.debug_macinfo  0x0000000000000000    0x293c0
+.debug_macinfo  0x0000000000000000    0x29028
  .debug_macinfo
-                0x0000000000000000     0x7844 ./src/blinky_main.o
+                0x0000000000000000     0x778c ./src/blinky_main.o
  .debug_macinfo
-                0x0000000000007844     0x770b ./src/clkconfig.o
+                0x000000000000778c     0x7653 ./src/clkconfig.o
  .debug_macinfo
-                0x000000000000ef4f     0x3d30 ./src/cr_startup_lpc13.o
+                0x000000000000eddf     0x3d30 ./src/cr_startup_lpc13.o
  .debug_macinfo
-                0x0000000000012c7f     0x767f ./src/gpio.o
+                0x0000000000012b0f     0x75c7 ./src/gpio.o
  .debug_macinfo
-                0x000000000001a2fe     0x76fd ./src/timer32.o
+                0x000000000001a0d6     0x7645 ./src/timer32.o
  .debug_macinfo
-                0x00000000000219fb     0x79c5 /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                0x000000000002171b     0x790d /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
 
-.debug_str      0x0000000000000000      0xd25
- .debug_str     0x0000000000000000      0x473 ./src/blinky_main.o
-                                        0x495 (size before relaxing)
- .debug_str     0x0000000000000473       0x35 ./src/clkconfig.o
-                                        0x42c (size before relaxing)
- .debug_str     0x00000000000004a8      0x108 ./src/cr_startup_lpc13.o
+.debug_str      0x0000000000000000      0xcac
+ .debug_str     0x0000000000000000      0x45d ./src/blinky_main.o
+                                        0x47f (size before relaxing)
+ .debug_str     0x000000000000045d       0x35 ./src/clkconfig.o
+                                        0x416 (size before relaxing)
+ .debug_str     0x0000000000000492      0x108 ./src/cr_startup_lpc13.o
                                         0x224 (size before relaxing)
- .debug_str     0x00000000000005b0      0x448 ./src/gpio.o
-                                        0x881 (size before relaxing)
- .debug_str     0x00000000000009f8      0x2a3 ./src/timer32.o
-                                        0xaa3 (size before relaxing)
- .debug_str     0x0000000000000c9b       0x8a /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
-                                        0x449 (size before relaxing)
+ .debug_str     0x000000000000059a      0x426 ./src/gpio.o
+                                        0x849 (size before relaxing)
+ .debug_str     0x00000000000009c0      0x251 ./src/timer32.o
+                                        0xa0c (size before relaxing)
+ .debug_str     0x0000000000000c11       0x9b /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                                        0x444 (size before relaxing)
 
 .comment        0x0000000000000000       0x70
  .comment       0x0000000000000000       0x70 ./src/blinky_main.o
@@ -306,7 +306,7 @@ OUTPUT(blinky.axf elf32-littlearm)
  .comment       0x0000000000000000       0x71 ./src/cr_startup_lpc13.o
  .comment       0x0000000000000000       0x71 ./src/gpio.o
  .comment       0x0000000000000000       0x71 ./src/timer32.o
- .comment       0x0000000000000000       0x71 /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .comment       0x0000000000000000       0x71 /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
 
 .ARM.attributes
                 0x0000000000000000       0x33
@@ -321,7 +321,7 @@ OUTPUT(blinky.axf elf32-littlearm)
  .ARM.attributes
                 0x00000000000000cc       0x33 ./src/timer32.o
  .ARM.attributes
-                0x00000000000000ff       0x33 /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+                0x00000000000000ff       0x33 /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
 
 .debug_frame    0x0000000000000000      0x408
  .debug_frame   0x0000000000000000       0x7c ./src/blinky_main.o
@@ -329,4 +329,4 @@ OUTPUT(blinky.axf elf32-littlearm)
  .debug_frame   0x00000000000000c4      0x120 ./src/cr_startup_lpc13.o
  .debug_frame   0x00000000000001e4       0xd4 ./src/gpio.o
  .debug_frame   0x00000000000002b8       0xec ./src/timer32.o
- .debug_frame   0x00000000000003a4       0x64 /Users/sin/Documents/LPCxpresso/workspace/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)
+ .debug_frame   0x00000000000003a4       0x64 /Users/sin/Documents/LPCxpresso/workspace/examples.lpc13xx/CMSISv1p30_LPC13xx/Debug/libCMSISv1p30_LPC13xx.a(system_LPC13xx.o)

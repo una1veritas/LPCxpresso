@@ -1,8 +1,14 @@
 /*
  * GENERATED FILE - DO NOT EDIT
- * (C) Code Red Technologies Ltd, 2008-9
- * Generated linker script library include file for Redlib (semihost) 
- * (created from redlib_semihost_c.ld (v3.5.1 (201009191457)) on Thu Sep 23 16:52:53 PDT 2010)
-*/
+ * (C) Code Red Technologies Ltd, 2008-2012
+ * Generated linker script file for LPC1768
+ * Created from LibIncTemplate.ld (vRed Suite v4.3 (0 [Build 1033] [2012-09-19] ))
+ * By Red Suite v4.3.0 [Build 1033] [2012-09-19]  on Thu Sep 27 01:54:20 JST 2012
+ */
 
-GROUP(libcr_semihost.a libcr_c.a libcr_eabihelpers.a)
+
+ GROUP(
+ libcr_semihost.a
+ libcr_c.a
+ libcr_eabihelpers.a
+ )

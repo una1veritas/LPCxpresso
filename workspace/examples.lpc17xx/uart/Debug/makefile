@@ -29,7 +29,7 @@ all: uart.axf
 uart.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"/Users/sin/Documents/LPCxpresso/workspace/examples.lpc17xx/CMSISv1p30_LPC17xx/Debug" -Xlinker -Map=uart.map -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "uart_Debug.ld" -o"uart.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/Users/sin/Documents/LPCxpresso/workspace/CMSISv2p00_LPC17xx/Debug" -Xlinker -Map=uart.map -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "uart_Debug.ld" -o"uart.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

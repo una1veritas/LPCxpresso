@@ -3,7 +3,7 @@
 	<name>uart</name>
 	<comment></comment>
 	<projects>
-		<project>CMSISv1p30_LPC17xx</project>
+		<project>CMSISv2p00_LPC17xx</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

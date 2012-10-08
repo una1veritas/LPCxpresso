@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := -lCMSISv1p30_LPC17xx
+LIBS := -lCMSISv2p00_LPC17xx
 

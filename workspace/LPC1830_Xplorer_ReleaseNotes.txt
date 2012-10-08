@@ -1,0 +1,27 @@
+RELEASE LPC1830 Xplorer for REV A V1.2 2012/06/25
+-----------------------------------------------
+--> LPCXpresso sample examples are saperated from Keil IDE
+--> SCT example is added
+--> Dual core exapmle added
+--> Sample examples are updated to LPCXpresso v4.2.3_292 version.
+--> Ethernet examples is updated: In web-browser On clicking ON/OFF button the LED will ON/OFF
+RELEASE LPC1830 Xplorer for REV A V1.2 2012/05/18
+-----------------------------------------------
+--> The timer delay used for USB1 VCOM debug messages.
+--> LPC1830 Xplorer examples are updated to LPCXpresso_4.2.2_275 IDE
+
+RELEASE LPC1830 Xplorer for REV A V1.1 2012/04/13
+------------------------------------------
+--> LPCXpresso examples are added.
+In LPCXpresso
+-------------
+--> LPC1830 Xplorer examples are added
+--> NXP LPC-Link debugger used to run from SPIFI Flash through SWD lines.
+
+In KEIL
+-------
+--> Restoring Xplorer to factory defaults section updated
+
+RELEASE LPC1830 Xplorer for REV A 2012/03/29
+------------------------------------------
+Initial version

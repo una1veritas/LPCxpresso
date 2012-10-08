@@ -39,8 +39,19 @@ extern volatile uint8_t UART3Buffer[BUFSIZE];
 **   Main Function  main()
 This program has been test on LPCXpresso 1700.
 *****************************************************************************/
-int main (void)
-{
+int main (void) {
+
+	  init_timer32(0, TIME_INTERVAL);
+	  /* Enable timer 0. Our interrupt handler will begin incrementing
+	   * the TimeTick global each time timer 0 matches and resets.
+	   */
+	  enable_timer32(0);
+
+	  /* Initialize GPIO (sets up clock) */
+	  GPIOInit();
+	  /* Set LED port pin to output */
+	  GPIOSetDir( LED_PORT, LED_BIT, 1 );
+
 	const char* welcomeMsg = "UART3 Online:\r\n";
 	//SystemInit();	//Called by startup code
 

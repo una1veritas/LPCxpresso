@@ -542,16 +542,16 @@ END GROUP
                 0x10002000                PROVIDE (_vStackTop, (__top_RamLoc8 - 0x0))
 OUTPUT(lpclcd.axf elf32-littlearm)
 
-.debug_info     0x00000000     0x4b51
+.debug_info     0x00000000     0x4b5c
  .debug_info    0x00000000      0x257 ./src/cr_startup_lpc11u.o
  .debug_info    0x00000257     0x130d ./src/gpio.o
  .debug_info    0x00001564      0xf04 ./src/i2c.o
  .debug_info    0x00002468      0x222 ./src/i2clcd.o
- .debug_info    0x0000268a      0x912 ./src/main.o
- .debug_info    0x00002f9c      0x5d2 ./src/system_LPC11Uxx.o
- .debug_info    0x0000356e      0x18e ./src/systick.o
- .debug_info    0x000036fc      0xf4a ./src/uart.o
- .debug_info    0x00004646      0x50b ./src/xprintf.o
+ .debug_info    0x0000268a      0x91d ./src/main.o
+ .debug_info    0x00002fa7      0x5d2 ./src/system_LPC11Uxx.o
+ .debug_info    0x00003579      0x18e ./src/systick.o
+ .debug_info    0x00003707      0xf4a ./src/uart.o
+ .debug_info    0x00004651      0x50b ./src/xprintf.o
 
 .debug_abbrev   0x00000000      0xc4f
  .debug_abbrev  0x00000000      0x10b ./src/cr_startup_lpc11u.o
@@ -647,7 +647,7 @@ OUTPUT(lpclcd.axf elf32-littlearm)
  .debug_str     0x00001020       0x6d ./src/i2clcd.o
                                 0x179 (size before relaxing)
  .debug_str     0x0000108d       0x9d ./src/main.o
-                                0x648 (size before relaxing)
+                                0x650 (size before relaxing)
  .debug_str     0x0000112a       0x48 ./src/system_LPC11Uxx.o
                                 0x3c0 (size before relaxing)
  .debug_str     0x00001172       0x46 ./src/systick.o

@@ -61,7 +61,7 @@ int main (void)
 
   i2c_puts("lpclcd");
   i2c_cmd(0xC0);	// move to 2nd line
-  i2c_puts("Smart LCD Module");
+  i2c_puts((uint8_t*)"Smart LCD Module");
 
   cn = 0;
 
